@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    /* align-items: center; */
+}
+.header{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: auto; */
+    /* width: 100%; */
+}
+.glgl{
+    margin-top: 15px;
+    font-size:1.25rem;
+    font-family: cursive;
+    font-weight: bold;
+    color: rgb(236, 2, 225);
+}
+.google{
+    flex-direction: row;
+    margin-top: 15px;
+    font-size:3rem;
+    /* font-family: cursive; */
+    font-weight: bold;
+    color: red;
+}
+
+/* google color design */
+
+.gl{
+   font-size: 3rem;
+   color: red;
+   font-weight: bold;
+}
+
+.g{
+    color: rgb(66, 134, 254);
+}
+.o{
+    color: rgb(219,68,55);
+}
+.O{
+    color: rgb(244,180,0);
+}
+.l{
+    color: rgb(15,158,88);
+}
+.e{
+    color: rgb(244,180,0);
+}
+
+.mid {
+    position: relative;
+    /* left: 50px; */
+    /* margin-left: 100px; */
+    justify-content: center;
+    align-items: center;
+}
+.letter{
+    margin: 20px;
+    font-size: 25px;
+}
+h1{
+   text-align: center;
+   color: red;
+   margin-bottom: 15px;
+}
