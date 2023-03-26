@@ -1,0 +1,40 @@
+.mid{
+    margin-top: 25px;
+}
+.talk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+.end{
+    margin-top: 50px;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+
+}
+.button{
+    padding: 10px 45px;
+    font-size: 25px;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    color: white;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+
+}
+.yes{
+    background-color: rgb(9, 165, 9);
+    
+}
+.no{
+    
+    background-color: rgb(255, 24, 43);
+}
