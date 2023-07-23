@@ -77,7 +77,7 @@
                         <a class="nav-link js-scroll" href="#blog">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll" href="https://wa.me/+917393017587">Contact</a>
+                        <a class="nav-link js-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -707,7 +707,7 @@
                                         </h5>
                                     </div>
                                     <div>
-                                        <form action="" method="post" role="form" class="contactForm">
+                                        <form role="form" class="contactForm">
                                             <div id="sendmessage">Your message has been sent. Thank you!</div>
                                             <div id="errormessage"></div>
                                             <div class="row">
@@ -740,12 +740,12 @@
                                                         <textarea class="form-control" name="message" rows="5"
                                                             data-rule="required"
                                                             data-msg="Please write something for us"
-                                                            placeholder="Message"></textarea>
+                                                            placeholder="Message" id="message"></textarea>
                                                         <div class="validation"></div>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-12">
-                                                    <button type="submit"
+                                                    <button type="submit" onClick="sendWhatsapp()"
                                                         class="button button-a button-big button-rouded">Send
                                                         Message</button>
                                                 </div>
@@ -831,6 +831,8 @@
     <script src="lib/typed/typed.min.js"></script>
     <!-- Contact Form JavaScript File -->
     <script src="contactform/contactform.js"></script>
+    <script src="contactform/contact.js"></script>
+
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
