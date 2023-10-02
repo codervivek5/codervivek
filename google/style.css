@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
+
 .container{
+    font-family: cursive;
+    font-weight: bold;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -10,15 +13,24 @@
     margin: auto;
     /* align-items: center; */
 }
-.header{
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* height: auto; */
-    /* width: 100%; */
+.header {
+    font-family: none;
+    text-align: center;
+    margin-bottom: 30px;
+    animation: blink 2s infinite alternate;
 }
+
+@keyframes blink {
+    0% {
+        transform: translateY(0);
+        /* opacity: 1; */
+    }
+    100% {
+        transform: translateY(-10px);
+        /* opacity: 0.5; */
+    }
+}
+
 .glgl{
     margin-top: 15px;
     font-size:1.25rem;
